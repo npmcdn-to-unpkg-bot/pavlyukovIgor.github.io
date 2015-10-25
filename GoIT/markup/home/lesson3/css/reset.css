@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 
 
 body {
+	font-family: OpenSans;
 	line-height: 1;
 	background: #f9f9f9;
 }
