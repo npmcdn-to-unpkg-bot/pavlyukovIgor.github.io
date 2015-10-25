@@ -1,0 +1,106 @@
+
+.container {
+	width: 958px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	background: #fff;
+	border: 1px solid #dbdbdb ;
+}
+		/*HEADER*/
+.header {
+	padding-bottom: 50px;
+}
+.menu {
+	width: 965px;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background: #525151;
+}
+
+.menu li {
+	display:inline-block;
+	padding-right: 25px;
+	margin-right: 1px;
+	background: #515151;
+	font-size:18px;
+}
+.menu a {  
+    display: block;  
+    padding: 15px 25px; 
+    color: #fff; 
+    text-decoration: none;  
+}
+.menu a:hover {
+	background: #303030;
+	border: 1px solid #838383;
+}
+
+
+		/*CONTENT*/
+.left-menu ul {
+	float: left;
+}
+
+.left-menu li {
+	background: #fff;
+	width: 240px;
+	height: 40px;
+	border: 1px solid #c8c8c8;
+	font-size:16px;
+}
+
+.left-menu a { 
+    display: block;  
+	padding: 14px 25px;
+	color: #000;   
+    text-decoration: none;  
+}
+.left-menu a:hover {
+	padding-left: 40px;
+}
+.content {
+	margin-left: 280px;
+	width: 580px;
+	height: 300px;
+	margin-left: 280px;
+	padding:50px;
+	border: 1px solid #c8c8c8;
+}
+
+p {
+	display: block;
+	margin-left: 300px;
+	margin-top: 40px;
+	line-height: 20px;
+}
+
+ 		/*FOOTER*/
+.footer {
+	width: 965px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: #e1e1e1;
+}
+
+.footer li {
+	display:inline-block;
+	padding-right: 25px;
+	margin-right: 1px;
+	background: #e1e1e1;
+	font-size:16px;
+}
+.footer a {  
+    display: block;  
+    padding: 15px 25px;  
+    color: #000;
+    text-decoration: none; 
+}
+.footer a:hover {
+	text-decoration: underline; 
+}
+.footer li:last-child {
+	padding-left:225px;
+}
