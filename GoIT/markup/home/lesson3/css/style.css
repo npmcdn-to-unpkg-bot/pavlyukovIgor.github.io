@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: OpenSans; /* Гарнитура шрифта */
+    src: url(fonts/open-sans.ttf); /* Путь к файлу со шрифтом */
+   }
 .container {
 	width: 958px;
 	height: 900px;
