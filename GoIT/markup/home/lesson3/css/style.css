@@ -1,7 +1,4 @@
-@font-face {
-    font-family: OpenSans; /* Гарнитура шрифта */
-    src: url(fonts/open-sans.ttf); /* Путь к файлу со шрифтом */
-   }
+
 .container {
 	width: 958px;
 	height: 900px;
@@ -76,7 +73,7 @@ p {
 	display: block;
 	margin-left: 300px;
 	margin-top: 40px;
-	line-height: 20px;
+	line-height: 18px;
 }
 
  		/*FOOTER*/
@@ -105,5 +102,5 @@ p {
 	text-decoration: underline; 
 }
 .footer li:last-child {
-	padding-left:225px;
+	padding-left:175px;
 }

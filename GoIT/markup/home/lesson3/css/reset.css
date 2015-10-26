@@ -24,8 +24,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+
 body {
-	font-family: OpenSans;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	background: #f9f9f9;
 }
