@@ -13,7 +13,7 @@
 }
 .menu {
 	width: 965px;
-	height: 50px;
+	height: 40px;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	background: #525151;
@@ -24,19 +24,20 @@
 	padding-right: 25px;
 	margin-right: 1px;
 	background: #515151;
-	font-size:18px;
-}
+	font-size:14px; }
 .menu a {  
-    display: block;  
-    padding: 15px 25px; 
-    color: #fff; 
-    text-decoration: none;  
+     
+    padding: 10px 25px; 
+    color: #fff;  
 }
 .menu a:hover {
 	background: #303030;
 	border: 1px solid #838383;
 }
-
+a{
+	line-height: 40px;
+	text-decoration: none; 
+}
 
 		/*CONTENT*/
 .left-menu ul {
@@ -48,14 +49,13 @@
 	width: 240px;
 	height: 40px;
 	border: 1px solid #c8c8c8;
-	font-size:16px;
+	font-size:14px;
 }
 
 .left-menu a { 
-    display: block;  
+
 	padding: 14px 25px;
-	color: #000;   
-    text-decoration: none;  
+	color: #000;    
 }
 .left-menu a:hover {
 	padding-left: 40px;
@@ -79,7 +79,7 @@ p {
  		/*FOOTER*/
 .footer {
 	width: 965px;
-	height: 50px;
+	height: 40px;
 	margin: 0 auto;
 	margin-top: 40px;
 	background: #e1e1e1;
@@ -90,13 +90,12 @@ p {
 	padding-right: 25px;
 	margin-right: 1px;
 	background: #e1e1e1;
-	font-size:16px;
+	font-size:14px;
 }
-.footer a {  
-    display: block;  
+.footer a {   
     padding: 15px 25px;  
     color: #000;
-    text-decoration: none; 
+    
 }
 .footer a:hover {
 	text-decoration: underline; 
