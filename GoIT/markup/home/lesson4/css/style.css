@@ -1,0 +1,94 @@
+
+.main{
+	width: 1000px;
+	height: 1100px;
+	background: #fff;
+	margin: 0 auto;
+}
+.header{
+	width: 940px;
+	height: 155px;
+	margin-top: 38px;
+	padding: 10px 30px;
+	position: relative;
+	
+}
+
+.logo{
+	width: 1000px;
+	height: 238px;
+	border-bottom: 1px solid #cacbcb;
+}
+
+.contacts{
+	float: right;
+	font-size: 14px;
+	color:#5fa5bb;
+}
+
+.contries{
+	margin: 5px;
+	float: right;
+	height: 50px;
+	clear: right;
+	position: absolute;
+	right: 20px;
+	top: 105px;
+}
+
+.contries li{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 8px;
+	font-size: 10px;
+	text-align: center;
+	
+}
+nav {
+  width: 1000px;
+  height: 36px;
+  background-color: #333333;
+  box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.5);
+}
+
+.menu li {
+  float: left;
+  height: 34px;
+  background: #333333;
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 39px;
+  color: #fff;
+  font-size: 14px;
+  }
+
+
+.menu li ul {
+ display: none;
+}
+
+
+.menu li:hover ul {
+  display: block;
+  position: absolute;
+  left: 0;
+   box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.5);
+}
+
+.menu ul li {
+ float: none;
+  width: 150px;
+}
+
+.menu ul li:first-child {
+  padding-top: 2px;
+}
+
+.menu li ul li a {
+  padding-left: 10px;
+}

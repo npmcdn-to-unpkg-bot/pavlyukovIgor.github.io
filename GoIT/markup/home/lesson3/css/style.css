@@ -16,23 +16,23 @@
 	height: 40px;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	background: #525151;
+		background: linear-gradient(to bottom, #5c5c5c 0%, #454444 53%, #454444 100%);
 }
 
 .menu li {
-	display:inline-block;
+	display:inline;
 	padding-right: 25px;
 	margin-right: 1px;
-	background: #515151;
-	font-size:14px; }
+	font-size:14px; 
+}
 .menu a {  
      
     padding: 10px 25px; 
     color: #fff;  
 }
 .menu a:hover {
-	background: #303030;
-	border: 1px solid #838383;
+	background: #434343;
+	border: 1px solid gray;
 }
 a{
 	line-height: 40px;
