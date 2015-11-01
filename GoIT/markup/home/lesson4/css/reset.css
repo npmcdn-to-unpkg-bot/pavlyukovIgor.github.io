@@ -26,8 +26,10 @@ footer, header, hgroup, menu, nav, section {
 
 
 body {
+	font-family: Tahoma;
+  	font-size: 14px;
 	line-height: 1;
-	background-image: url(../img/background.jpg);
+	background:url(../img/background.jpg) repeat-x #0c739f;
 
 }
 ol, ul {
