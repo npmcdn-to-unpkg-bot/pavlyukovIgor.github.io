@@ -166,10 +166,11 @@ header {
     margin-bottom: -20000px;
 }
 		/*FOOTER*/
-.footer p {
-    font-size: 12px;
+.footer {
+    font-size: 14px;
+    margin: 10px;
+    color: #fff;
     text-align: center;
-    color: #000;
-    margin-bottom: 50px;
+  
 	
 }
