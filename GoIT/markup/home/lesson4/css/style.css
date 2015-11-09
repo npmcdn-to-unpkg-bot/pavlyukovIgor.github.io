@@ -23,6 +23,10 @@ header {
 	position: relative;
 }
 
+.logo{
+	float: left;
+}
+
 .contacts {
 	color: #5fa5bb;
 	display: block;
@@ -58,7 +62,7 @@ header {
 	text-align: center;
 }
 
-.logo{
+.photo{
 	height: 238px;
 	border-bottom: 1px solid #138aa7;
 }
