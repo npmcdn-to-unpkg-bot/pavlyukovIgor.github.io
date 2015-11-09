@@ -59,7 +59,6 @@ header {
 }
 
 .logo{
-	width: 1000px;
 	height: 238px;
 	border-bottom: 1px solid #138aa7;
 }
@@ -67,7 +66,6 @@ header {
 
 
 .menu {
-	width: 1000px;
 	height: 30px;
 	background-color: #333;
 	border-bottom: 1px solid #000;
@@ -126,7 +124,6 @@ header {
 
 			/*CONTENT*/
 .container {
-    width: 1000px;
     overflow: hidden;
     margin-top: 2px;
 }
@@ -143,15 +140,16 @@ header {
 }
 
 .box-left {
-    width: 21%;
+    width: 208px;
     float: left;
     background: #edeef0;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
+     border: 1px solid #c7cacf;
 }
 
 .box-center {
-    width: 58%;
+    width: 580px;
     float: left;
     background: #fff;
     padding-bottom: 20000px;
@@ -159,11 +157,10 @@ header {
 }
 
 .box-right {
-    width: 21%;
+    width: 208px;
     float: left;
     background: #edeef0;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
+    border: 1px solid #c7cacf;
 }
 		/*FOOTER*/
 .footer {
