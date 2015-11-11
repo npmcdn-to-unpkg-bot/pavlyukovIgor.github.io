@@ -43,58 +43,56 @@ section {
 	padding-left: 455px; 
 }
 
-.menu li a:hover { 
+.menu>li>a:hover { 
 	background: #249bd6;
 	color: #e7ebf0;
 }
 
 .line {
  	border-right: 1px solid #56a2dc;
-    margin: 2px 19px 0 -15px;
+    margin: 2px 19px 0 18px;
     padding: 3px 0 2px 0;
     height: 26px;
 }
 
-.minhas {
+.menu_2 li {
 	float: left;
-}
-
-.minhas:before {
-	content: url(../img/flag.png);
-	position: absolute;
-	top: 8px;
-
-}
-
-.minhas a {
-	padding: 0 18px 0 26px; 
-	line-height: 36px; 
-	color:#e7ebf0;
-	text-decoration: none;  
-	text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
-}
-
-.register {
-	float: left;
-	width: 190px;
-	height: 36px;
-	padding-left: 14px;
+	padding: 0 13px;
 	line-height: 36px;
 	color: #fff;
-	background: rgba(81,176,220,1);
 }
 
-.register a {
-	margin: 0 5px;
+.menu_2 li:first-child {
+	padding: 0;
+}
+.menu_2 li img {
+	margin-top: 7px;
+}
+
+.menu_2 li a {
 	color: #fff;
 }
+
+.menu_2 li:last-child {
+	background: rgba(81,176,220,1);
+	background: -webkit-linear-gradient(rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	background: -o-linear-gradient(rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	background: linear-gradient(rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+}
 		/*CONTENT*/
+
+.box{
+	position: absolute; 
+	top: 50%; 
+	left: 54%; 
+	width: 562px; 
+	height: 612px;  
+	margin-top: -281px; 
+	margin-left: -306px; 
+}
 .cadastre-se {
-	width:562px;
-	height:62px;
-	position: absolute;
-	top:212px; 
-	left:352px;
+	min-height:62px;
+	margin-bottom: 2px;
 	text-align: center;
 	background: rgba( 0, 0, 0, 0.7);
 }
@@ -103,15 +101,10 @@ section {
 	color: #fff;
 	font-size: 25px;
 	line-height: 62px;
-
 }
 
 .info {
-	width:562px;
-	height:550px;
-	position: absolute;
-	top:276px;
-	left: 352px;
+	min-height:550px;
 	text-align: center;
 	background: rgba( 0, 0, 0, 0.7);
 }
