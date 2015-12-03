@@ -109,16 +109,57 @@ section {
 	background: rgba( 0, 0, 0, 0.7);
 }
 .facebook {
-	margin-top: 37px;
-	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	width: 276px;
+	height: 35px;
+	border-top: 1px solid black;
+	background: linear-gradient(to bottom, rgba(59,89,148,1) 0%, rgba(56,78,138,1) 50%, rgba(49,65,116,1) 100%);
+}
+.facebook::before{
+	position: absolute;
+	height: 35px;
+	top: 10px;
+	left: 37px;
+	margin-top: -11px;
+	content: "";
+	border-left: 1px solid #213c71;
+	border-right: 1px solid #4d66a6;
+}
+.facebook span{
+		color: #fff;
+	font-size: 17px;
+	line-height: 35px;
+	font-weight: bold;
+	margin: 0 5px 0 13px;
+}
+.facebook a{
+		color: #fff;
+		text-decoration: none;
 }
 
+.letter-f{
+	font-size: 24px;
+}
+
+
+
+
 .ou{
-	margin: 0 auto;
-	margin-top: 30px;
+	margin: 30px auto 0;
 	width: 276px;
 	height: 2px;
+	color: #999;
 }
+
+.ou-text {
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	top: -5px;
+	width: 122px;
+	background-color: #666;
+} 
 
 		/*INPUTS*/
 input::-webkit-input-placeholder {
@@ -159,10 +200,14 @@ input[type="text"], input[type="email"],input[type="password"] {
 	padding: 5px;
     border: none;
     border-radius: 3px;
-    border: 1px solid #4299d2;
- 	background: url(../img/button_submit.jpg);
+  
+ 	background: linear-gradient(to bottom, rgba(80,175,219,1) 0%, rgba(60,143,206,1) 50%, rgba(46,121,196,1) 100%);
 }
 
+#submit:hover{
+	cursor:pointer;
+	box-shadow: 0px 0px 4px 1px rgba(103,198,230,1);
+}
 
 
 input[type="text"]:focus , 
