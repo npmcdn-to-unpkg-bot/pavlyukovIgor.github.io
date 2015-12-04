@@ -8,10 +8,10 @@ var name = prompt('Введите свое имя:');
 
 for (var i = 0; i < arrNames.length; i++) {
     if (name == arrNames[i]) {
-        alert(name + ' ,' + 'Вы успешно вошли!');
+        console.log(name + ' ,' + 'Вы успешно вошли!');
         break;
     }
 }
 if(name != arrNames[i]){
-    alert('Ошибка!');
+      console.log('Ошибка!');
 }
