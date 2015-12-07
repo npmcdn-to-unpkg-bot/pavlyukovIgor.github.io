@@ -30,20 +30,20 @@ section {
 .menu li {
 	float: left;
 }
-.menu li a { 
-	display: block; 
-	padding: 0 13px 0 13px; 
-	line-height: 36px; 
-	text-decoration: none; 
-	color: #60b5ed; 
+.menu li a {
+	display: block;
+	padding: 0 13px 0 13px;
+	line-height: 36px;
+	text-decoration: none;
+	color: #60b5ed;
 	text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
 }
 
-.menu { 
-	padding-left: 455px; 
+.menu {
+	padding-left: 455px;
 }
 
-.menu>li>a:hover { 
+.menu>li>a:hover {
 	background: #249bd6;
 	color: #e7ebf0;
 }
@@ -82,13 +82,13 @@ section {
 		/*CONTENT*/
 
 .box{
-	position: absolute; 
-	top: 50%; 
-	left: 54%; 
-	width: 562px; 
-	height: 612px;  
-	margin-top: -281px; 
-	margin-left: -306px; 
+	position: absolute;
+	top: 50%;
+	left: 54%;
+	width: 562px;
+	height: 612px;
+	margin-top: -281px;
+	margin-left: -306px;
 }
 .cadastre-se {
 	min-height:62px;
@@ -106,36 +106,66 @@ section {
 .info {
 	min-height:550px;
 	text-align: center;
+  margin: 0 auto;
 	background: rgba( 0, 0, 0, 0.7);
 }
-.facebook {
-	position: relative;
-	margin: 0 auto;
+
+.fb-button {
 	width: 276px;
-	height: 35px;
-	border-top: 1px solid black;
-	background: linear-gradient(to bottom, rgba(59,89,148,1) 0%, rgba(56,78,138,1) 50%, rgba(49,65,116,1) 100%);
+	height: 30px;
+  margin: 0 auto;
+  padding-top: 35px;
+
 }
-.facebook::before{
+
+.fb-button .icon,
+.fb-button .title {
+	display: inline-block;
+	float: left;
+	background: rgba(72,106,181,1);
+	background: linear-gradient(to bottom, rgba(72,106,181,1) 0%, rgba(51,77,135,1) 100%);
+	border: 1px outset #184aa5;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fb-button .icon {
 	position: absolute;
-	height: 35px;
-	top: 10px;
-	left: 37px;
-	margin-top: -11px;
-	content: "";
-	border-left: 1px solid #213c71;
-	border-right: 1px solid #4d66a6;
+	left: 0;
+	width: 30px;
+	height: 29px;
+	border-radius: 4px 0px 0px 4px;
+	font-family: "Arial Bold", sans-serif;
+	font-size: 22px;
+	border: none;
+    border-right: 1px solid #4d66a6;
 }
-.facebook span{
-		color: #fff;
-	font-size: 17px;
-	line-height: 35px;
-	font-weight: bold;
-	margin: 0 5px 0 13px;
+.fb-button .title {
+	position: relative;
+	height: 30px;
+	border-radius: 4px;
+	padding-left: 30px;
+	font-family: "Arial Bold", sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	width: 243px;
+	text-align: center;
 }
-.facebook a{
-		color: #fff;
-		text-decoration: none;
+
+.fb-button .title:hover {
+	color: #eee;
+	border: 1px inset #184aa5;
+}
+
+.fb-button .title:active {
+	color: #f88;
+	border: 1px inset #184aa5;
+}
+.fb-button .title::after {
+	content: ">";
+	margin-left: 20px;
 }
 
 .letter-f{
@@ -159,7 +189,7 @@ section {
 	top: -5px;
 	width: 122px;
 	background-color: #666;
-} 
+}
 
 		/*INPUTS*/
 input::-webkit-input-placeholder {
@@ -171,7 +201,7 @@ input::-moz-placeholder {
 }
 
 input[type="text"], input[type="email"],input[type="password"] {
-	width:256px; 
+	width:256px;
 	height:36px;
 	margin: 7px;
 	padding-left: 20px;
@@ -181,7 +211,7 @@ input[type="text"], input[type="email"],input[type="password"] {
 	border-style: none;
 	border-bottom: 1px solid #484848;
 	border-radius: 3px;
-	
+
 }
 #firstname{
 	margin-top: 40px;
@@ -192,7 +222,7 @@ input[type="text"], input[type="email"],input[type="password"] {
 }
 
 #submit{
-	
+
 	color: #fff;
 	width: 150px;
 	height: 35px;
@@ -200,7 +230,7 @@ input[type="text"], input[type="email"],input[type="password"] {
 	padding: 5px;
     border: none;
     border-radius: 3px;
-  
+
  	background: linear-gradient(to bottom, rgba(80,175,219,1) 0%, rgba(60,143,206,1) 50%, rgba(46,121,196,1) 100%);
 }
 
@@ -210,7 +240,7 @@ input[type="text"], input[type="email"],input[type="password"] {
 }
 
 
-input[type="text"]:focus , 
+input[type="text"]:focus ,
 input[type="email"]:focus ,
 input[type="password"]:focus {
     outline: none;
