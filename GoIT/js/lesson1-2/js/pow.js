@@ -9,8 +9,8 @@ function pow(number, stepen) {
   }
 
 if (stepen <= 1) {
-    alert("Вы ввели неверный степень: ");
+    console.log("Вы ввели неверный степень: ");
 }
   else {
-    alert('Ваш ответ:' +' ' +pow(number, stepen));
+    console.log('Ваш ответ:' +' ' +pow(number, stepen));
 }
