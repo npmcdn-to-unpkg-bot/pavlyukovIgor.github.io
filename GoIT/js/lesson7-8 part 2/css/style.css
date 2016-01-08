@@ -1,0 +1,40 @@
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#container {
+  width: 235px;
+  margin: 20px 0;
+  position: relative;
+}
+#container:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+label {
+  display: block;
+  margin: 10px 0 10px 20px;
+}
+input {
+  width: 120px;
+  float: right;
+}
+#divFirstName, #divLastName, #divAddress {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 242px;
+  height: 19px;
+  line-height: 19px;
+  font-size: 12px;
+  width: 200px;
+  border: 1px solid #555;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+#divLastName {
+  top: 52px;
+}
+#divAddress {
+  top: 84px;
+}
