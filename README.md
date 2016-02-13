@@ -1,1 +1,0 @@
-# pavlyukov.github.io
