@@ -3,10 +3,7 @@
   padding: 0;
   font-family: "Ubuntu", Arial, sans-serif; }
 
-<<<<<<< HEAD
 a
-=======
->>>>>>> origin/master
 .container {
   margin: 0 auto; }
 
@@ -62,32 +59,20 @@ header {
       background-image: url(../img/svg-hover/linkedin.svg); }
     header .header__contacts .skype:hover {
       background-image: url(../img/svg-hover/skype.svg); }
-<<<<<<< HEAD
   header nav .header__nav {
-=======
-  header .header__nav {
->>>>>>> origin/master
     display: block;
     position: relative;
     overflow: hidden;
     width: 1160px;
     height: 56px;
     background: #2a2d32; }
-<<<<<<< HEAD
     header nav .header__nav li {
-=======
-    header .header__nav li {
->>>>>>> origin/master
       list-style: none;
       float: left;
       width: 118px;
       height: 56px;
       border-right: 1px solid #181a1d; }
-<<<<<<< HEAD
     header nav .header__nav a {
-=======
-    header .header__nav a {
->>>>>>> origin/master
       text-decoration: none;
       display: inline-block;
       text-align: center;
@@ -96,17 +81,10 @@ header {
       line-height: 54px;
       color: #fff;
       font-size: 14px; }
-<<<<<<< HEAD
     header nav .header__nav a:hover {
       color: #f4b60d;
       cursor: pointer; }
     header nav .header__nav input {
-=======
-    header .header__nav a:hover {
-      color: #f4b60d;
-      cursor: pointer; }
-    header .header__nav input {
->>>>>>> origin/master
       width: 225px;
       height: 36px;
       float: right;
@@ -129,11 +107,7 @@ header {
       height: auto; }
     header .carousel .owl-carousel__text {
       font-weight: 700;
-<<<<<<< HEAD
       font-family: "Ubuntu", Arial, sans-serif;
-=======
-      font-family: Ubuntu,Arial,sans-serif;
->>>>>>> origin/master
       font-size: 54px;
       position: absolute;
       top: 280px;
@@ -349,11 +323,7 @@ header {
     clear: both; }
     .footer__nav__container .footer__nav__box .footer__nav {
       width: 260px;
-<<<<<<< HEAD
       font-family: "Ubuntu", Arial, sans-serif;
-=======
-      font-family: Ubuntu,Arial,sans-serif;
->>>>>>> origin/master
       float: left;
       margin-right: 40px; }
       .footer__nav__container .footer__nav__box .footer__nav .footer__nav--title {
