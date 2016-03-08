@@ -10,12 +10,22 @@ $ubuntu:      'Ubuntu', Arial, sans-serif;
   padding: 0;
   font-family: $ubuntu;
 }
+<<<<<<< HEAD
+a
+.container {
+  margin: $center;
+}
+header {
+    width: $width;
+    margin: $center;
+=======
 .container {
   margin: 0 auto;
 }
 header {
     width: 1160px;
     margin: 0 auto;
+>>>>>>> origin/master
     padding-top: 40px;
   .header__logo {
     width: 250px;
@@ -84,6 +94,62 @@ header {
   }
 
 }
+<<<<<<< HEAD
+
+// NAVIGATION
+nav {
+  .header__nav {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: $width;
+      height: 56px;
+      background: $main_color;
+    li {
+      list-style: none;
+      float: left;
+      width: 118px;
+      height: 56px;
+      border-right: 1px solid #181a1d;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      // padding-top: 20px;
+      line-height: 54px;
+      color: #fff;
+      font-size: 14px;
+    }
+    a:hover {
+      color: $orange;
+      cursor: pointer;
+    }
+    input {
+      width: 225px;
+      height: 36px;
+      float: right;
+      background: #35383c;
+      border: #181a1d;
+      margin: 8px 8px 8px 0;
+      padding-left: 14px;
+      color: #626466;
+      font-size: 12px;
+      background-image: url(../img/search.jpg);
+      background-repeat: no-repeat;
+      background-position: 211px;
+    }
+  }
+}
+
+// CAROUSEL
+.carousel{
+  position: relative;
+
+    #owl-demo .item img {
+=======
   .header__nav {
     display: block;
     position: relative;
@@ -131,16 +197,24 @@ header {
 .carousel{
     position: relative;
   #owl-demo .item img{
+>>>>>>> origin/master
       display: block;
       width: 100%;
       margin-top: 40px;
       max-height: 470px;
       height: auto;
+<<<<<<< HEAD
+  }
+  .owl-carousel__text{
+      font-weight: 700;
+      font-family: $ubuntu;
+=======
 
   }
   .owl-carousel__text{
       font-weight: 700;
       font-family: Ubuntu,Arial,sans-serif;
+>>>>>>> origin/master
       font-size: 54px;
       position: absolute;
       top: 280px;
@@ -152,7 +226,11 @@ header {
     }
     .owl-carousel__text--top{
         width: 190px;
+<<<<<<< HEAD
+        color: $orange;
+=======
         color: #f4b60d;
+>>>>>>> origin/master
     }
     .owl-carousel__text--center{
         width: 190px;
@@ -160,7 +238,11 @@ header {
   }
 }
 
+<<<<<<< HEAD
+// INFORMATION BLOCK
+=======
 
+>>>>>>> origin/master
   .header__information-block{
   	margin:55px 0 90px 0;
   	position: relative;
@@ -222,6 +304,10 @@ header {
 
   }
 }
+<<<<<<< HEAD
+// CONTENT
+=======
+>>>>>>> origin/master
 .content {
 	margin-top: 75px;
 	background: $main-color;
@@ -436,13 +522,29 @@ header {
 		}
 	}
 }
+<<<<<<< HEAD
+// PARTNERS
+.partners {
+  width: $width;
+  margin: $center;
+=======
 .partners {
   width: 1160px;
   margin: 0 auto;
+>>>>>>> origin/master
          img {
            margin: 86px 0 86px 0;
          }
 }
+<<<<<<< HEAD
+// FOOTER
+.footer__nav__container {
+  padding: 60px 0 74px;
+  background: $main_color;
+    .footer__nav__box {
+      width: $width;
+      margin: $center;
+=======
 
 .footer__nav__container {
   padding: 60px 0 74px;
@@ -450,12 +552,17 @@ header {
     .footer__nav__box {
       width: 1160px;
       margin: 0 auto;
+>>>>>>> origin/master
       position: relative;
       overflow: hidden;
           clear: both;
         .footer__nav {
           width: 260px;
+<<<<<<< HEAD
+          font-family: $ubuntu;
+=======
           font-family: Ubuntu,Arial,sans-serif;
+>>>>>>> origin/master
           float: left;
           margin-right: 40px;
 
@@ -487,8 +594,13 @@ header {
   .footer__contacts__box{
     position: relative;
     overflow: hidden;
+<<<<<<< HEAD
+    width: $width;
+    margin: $center;
+=======
     width: 1160px;
     margin: 0 auto;
+>>>>>>> origin/master
     padding: 23px 0 20px  ;
     color: #5d6063;
     font-size: 13px;

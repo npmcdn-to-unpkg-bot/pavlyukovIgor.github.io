@@ -13,8 +13,13 @@ grunt.initConfig({
 
   uglify: {
     dist:{
+<<<<<<< HEAD
+      src: ['src/js/script.js'],
+      dest: 'src/js/script.min.js'
+=======
       src: ['js/script.js'],
       dest: 'js/script.min.js'
+>>>>>>> origin/master
     }
   },
 
@@ -26,7 +31,11 @@ grunt.initConfig({
       },
   target: {
       files: {
+<<<<<<< HEAD
+        'src/style/style.css': ['src/style/style.min.css']
+=======
         'style/style.css': ['style/style.min.css']
+>>>>>>> origin/master
       }
   },
 
@@ -36,16 +45,26 @@ sass: {
  dist: {
    files: [{
      expand: true,
+<<<<<<< HEAD
+     cwd: 'src/style',
+     src: ['*.scss'],
+     dest: 'src/style',
+=======
      cwd: 'css',
      src: ['*.scss'],
      dest: 'css',
+>>>>>>> origin/master
      ext: '.css'
    }]
  }
 },
 watch: {
     sass: {
+<<<<<<< HEAD
+      files: ['src/style/*.scss'],
+=======
       files: ['css/*.scss'],
+>>>>>>> origin/master
       tasks: ['sass'],
     },
   }
