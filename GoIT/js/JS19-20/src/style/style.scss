@@ -29,11 +29,11 @@ header {
     float: left;
     margin-right: 12px;
       }
-  .header__logo__text--top {
+  .header__text--top {
     font-family: $ubuntu;
     font-size: 29px;
     }
-  .header__logo__text--bottom {
+  .header__text--bottom {
     font-family: $ubuntu;
     font-size: 13px;
     }
@@ -168,12 +168,12 @@ nav {
 }
 
 // INFORMATION BLOCK
-  .header__information-block{
+  .information__block{
   	margin:55px 0 90px 0;
   	position: relative;
   	overflow: hidden;
 
-  	.header__information {
+  	.information {
   		position: relative;
   		overflow: hidden;
   		float: left;
@@ -181,7 +181,7 @@ nav {
   		width: 360px;
   		font-family: $ubuntu;
 
-  		.header__information__huge-number {
+  		.information__huge-number {
   			display: block;
   			font-weight: bold;
   			color: #efeff0;
@@ -195,7 +195,7 @@ nav {
   			padding-top: 15px;
   		}
 
-  		.header__information__name {
+  		.information__name {
   			margin: 16px 0 18px 0;
   			display: inline-block;
   			width: 230px;
@@ -204,26 +204,26 @@ nav {
   			color: $main_color;
   		}
 
-  		.header__information__text {
+  		.information__text {
   			color: $main_color;
   			margin-bottom: 16px;
   			font-size: 13px;
   		}
 
-  		.header__information__button {
+  		.information__button {
   			text-decoration: none;
   			font-weight: bold;
   			font-size: 13px;
   			color: $main_color;
   		}
 
-  		.header__information__button:hover {
+  		.information__button:hover {
   			color: $blue;
   		}
 
   	}
 
-  	.header__information--third {
+  	.information--third {
   		margin-right: 0;
   	}
 
@@ -234,35 +234,35 @@ nav {
 	margin-top: 75px;
 	background: $main-color;
 
-	.content__services-container {
+	.services__container {
 		position: relative;
 		overflow: hidden;
 		width: $width;
 		margin: $center;
 		font-family: $ubuntu;
 
-		.content__services__title {
+		.services__title {
 			color: $white;
 			margin: 46px 0 55px 0;
 			font-size: 24px;
 		}
 
 	}
-	.content__services {
+	.services__block {
 		width: 260px;
 		position: relative;
 		overflow: hidden;
 		float: left;
 		margin-right: 40px;
 
-		.content__services--img {
+		.services__img {
 			display: block;
 			height: 260px;
 			background: $blue;
 			text-decoration: none;
 		}
 
-		.content__services__text {
+		.services__text {
 			text-decoration: none;
 			display: block;
 			margin: 22px auto 70px auto;
@@ -280,34 +280,36 @@ nav {
 
 		}
 
-		.content__services__text:hover {
+		.services__text:hover {
 			color: $orange;
 		}
 
 
 	}
 
-	.content__services--foreth {
+	.services__block--fourth {
 		margin-right: 0;
 	}
 
-	.content__news-container {
+
+// NEWS
+	.news__box {
 		background: #f7f7f7;
 
-		.content__news {
+		.news {
 			position: relative;
 			overflow: hidden;
 			width: $width;
 			margin: $center;
 			padding: 63px 0 80px 0;
 
-			.content__latest-news {
+			.news__latest {
 				position: relative;
 				overflow: hidden;
 				float: left;
 				width: 560px;
 
-				.content__latest-news__title {
+				.news__title {
 					font-family: $ubuntu;
 					font-size: 24px;
 					margin-bottom: 40px;
@@ -315,7 +317,7 @@ nav {
 					font-weight: bold;
 				}
 
-				.content__latest-news__box {
+				.news__container {
 					font-family: $ubuntu;
 					position: relative;
 					overflow: hidden;
@@ -325,13 +327,13 @@ nav {
 						margin-right: 30px;
 					}
 
-					.content__latest-news--title {
+					.news__name {
 						font-size: 16px;
 						font-weight: bold;
 						margin-bottom: 10px;
 					}
 
-					.content__latest-news--by {
+					.news__by {
 						float: left;
 						font-size: 13px;
 						margin-right: 10px;
@@ -341,7 +343,7 @@ nav {
 						}
 					}
 
-					.content__latest-news--comments {
+					.news__comments {
 						font-size: 13px;
 
 						span {
@@ -349,24 +351,27 @@ nav {
 						}
 					}
 
-					.content__latest-news--text {
+					.news__text {
 						margin-top: 24px;
 						font-size: 13px;
 
 					}
 				}
 
-				.content__latest-news__box--second {
+				.news__container--second {
 					margin-top: 30px;
 				}
 			}
-
-			.content__banners {
+// BANNERS
+			.banners {
 				float: left;
 				width: 560px;
 				margin-left: 40px;
+        -webkit-box-sizing:border-box;
+      	-moz-box-sizing:border-box;
+      	box-sizing:border-box;
 
-				.content__banners__title {
+				.banners__title {
 					font-family: $ubuntu;
 					font-size: 24px;
 					margin-bottom: 40px;
@@ -374,73 +379,64 @@ nav {
 					font-weight: bold;
 				}
 
-				.banner {
-					display: block;
-					font-family: $ubuntu;
-					position: relative;
-					overflow: hidden;
-					margin-bottom: 5px;
 
-					.banner__title {
-						font-size: 16px;
-						font-weight: bold;
-						width: 100%;
-						height: 40px;
-						border: 1px solid $white;
-						color: $main_color;
-						background: $white;
-						border-color: #e8e8e8;
-						font-weight: bold;
 
-						.banner__title__plus {
-							display: block;
-							width: 40px;
-							height: 40px;
-							text-align: center;
-							border-right: 1px solid #e8e8e8;
-							float: left;
-							font-size: 25px;
-						}
+          .accordion__tab {
+    			position: relative;
+    			border: 1px solid #e8e8e8;
+    			background-color: #FFF;
+    			padding-left: 38px;
+    			cursor: pointer;
+    			margin-bottom: 5px;
+    			height: 40px;
+    			&:before {
+    				content: " +";
+    				position: absolute;
+    				top: 4px;
+    				left: 11px;
+    				color: #2a2d32;
+    				font-size: 27px;
+    			}
+    		}
+    		.accordion__title {
+    			border-left: 1px solid #e8e8e8;
+    			padding-left: 12px;
+    			color: #2a2d32;
+    			background-color: #FFF;
+    			font-size: 13px;
+    			font-weight: 500;
+    			line-height: 40px;
+    			text-transform: uppercase;
+    		}
+    		.accordion_article {
+    			display: none;
+    			height: 100px;
+    			overflow: hidden;
+    			padding: 25px 0 0 40px;
+    			margin-bottom: 35px;
+    			color: #8a8a8a;
+    			font-size: 13px;
+    			font-weight: 400;
+    			line-height: 20px;
+    		}
+    		.accordion__tab--active {
+    			// border: 1px solid #f4b60d;
+    			background-color: #f4b60d;
+    			&:before {
+    				content: "-";
+    				top: 2px;
+    				left: 14px;
+    				color: #fff;
+    			}
+    		}
+    		.accordion__title--active {
+    			border-left: 1px solid #f6c53d;
+    			background-color: #f4b60d;
+    			color: #fff;
+    		}
+  
 
-						.banner__title__minus {
-							display: none;
-							width: 40px;
-							height: 40px;
-							text-align: center;
-							border-right: 1px solid #e8e8e8;
-							float: left;
-							font-size: 25px;
-						}
-
-						.banner__title__text {
-							padding: 10px 0 0 60px;
-						}
-					}
-
-					.banner__content {
-						display: none;
-						margin: 25px 0 35px 40px;
-						font-size: 13px;
-					}
-				}
-
-				.banner--modify {
-
-					.banner__title {
-						color: $main_color;
-						background: $white;
-						border-color: #e8e8e8;
-
-						.banner__title__plus {
-							border-color: #e8e8e8;
-						}
-					}
-
-					.banner__content {
-						display: none;
-					}
-				}
-			}
+		  }
 		}
 	}
 }
