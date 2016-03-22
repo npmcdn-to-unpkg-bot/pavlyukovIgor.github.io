@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", Arial, sans-serif; }
+
+a
+.container {
+  margin: 0 auto; }
+
+header {
+  width: 1160px;
+  margin: 0 auto;
+  padding-top: 40px; }
+  header .header__logo {
+    width: 250px;
+    height: 40px;
+    float: left;
+    margin-bottom: 35px;
+    color: #434343;
+    text-decoration: none; }
+    header .header__logo img {
+      float: left;
+      margin-right: 12px; }
+    header .header__logo .header__text--top {
+      font-family: "Ubuntu", Arial, sans-serif;
+      font-size: 29px; }
+    header .header__logo .header__text--bottom {
+      font-family: "Ubuntu", Arial, sans-serif;
+      font-size: 13px; }
+  header .header__contacts {
+    float: right;
+    width: 168px;
+    height: 16px;
+    margin-top: 8px; }
+    header .header__contacts a {
+      display: block;
+      float: left;
+      margin-left: 17px;
+      height: 16px;
+      width: 16px;
+      background-size: cover; }
+    header .header__contacts .facebook {
+      background-image: url(../img/svg/facebook.svg); }
+    header .header__contacts .twitter {
+      background-image: url(../img/svg/twitter.svg); }
+    header .header__contacts .rss {
+      background-image: url(../img/svg/rss.svg); }
+    header .header__contacts .linkedin {
+      background-image: url(../img/svg/linkedin.svg); }
+    header .header__contacts .skype {
+      background-image: url(../img/svg/skype.svg); }
+    header .header__contacts .facebook:hover {
+      background-image: url(../img/svg-hover/facebook.svg); }
+    header .header__contacts .twitter:hover {
+      background-image: url(../img/svg-hover/twitter.svg); }
+    header .header__contacts .rss:hover {
+      background-image: url(../img/svg-hover/rss.svg); }
+    header .header__contacts .linkedin:hover {
+      background-image: url(../img/svg-hover/linkedin.svg); }
+    header .header__contacts .skype:hover {
+      background-image: url(../img/svg-hover/skype.svg); }
+  header nav .header__nav {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 1160px;
+    height: 56px;
+    background: #2a2d32; }
+    header nav .header__nav li {
+      list-style: none;
+      float: left;
+      width: 118px;
+      height: 56px;
+      border-right: 1px solid #181a1d; }
+    header nav .header__nav a {
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      line-height: 54px;
+      color: #fff;
+      font-size: 14px; }
+    header nav .header__nav a:hover {
+      color: #f4b60d;
+      cursor: pointer; }
+    header nav .header__nav input {
+      width: 225px;
+      height: 36px;
+      float: right;
+      background: #35383c;
+      border: #181a1d;
+      margin: 8px 8px 8px 0;
+      padding-left: 14px;
+      color: #626466;
+      font-size: 12px;
+      background-image: url(../img/search.jpg);
+      background-repeat: no-repeat;
+      background-position: 211px; }
+  header .carousel {
+    position: relative; }
+    header .carousel #owl-demo .item img {
+      display: block;
+      width: 100%;
+      margin-top: 40px;
+      max-height: 470px;
+      height: auto; }
+    header .carousel .owl-carousel__text {
+      font-weight: 700;
+      font-family: "Ubuntu", Arial, sans-serif;
+      font-size: 54px;
+      position: absolute;
+      top: 280px;
+      left: 80px; }
+      header .carousel .owl-carousel__text p {
+        color: #fff;
+        background: #191f23;
+        padding: 0 15px; }
+      header .carousel .owl-carousel__text .owl-carousel__text--top {
+        width: 190px;
+        color: #f4b60d; }
+      header .carousel .owl-carousel__text .owl-carousel__text--center {
+        width: 190px; }
+  header .information__block {
+    margin: 55px 0 90px 0;
+    position: relative;
+    overflow: hidden; }
+    header .information__block .information {
+      position: relative;
+      overflow: hidden;
+      float: left;
+      margin-right: 40px;
+      width: 360px;
+      font-family: "Ubuntu", Arial, sans-serif; }
+      header .information__block .information .information__huge-number {
+        display: block;
+        font-weight: bold;
+        color: #efeff0;
+        font-size: 60px;
+        float: left;
+        height: 190px;
+        margin-right: 40px; }
+      header .information__block .information img {
+        padding-top: 15px; }
+      header .information__block .information .information__name {
+        margin: 16px 0 18px 0;
+        display: inline-block;
+        width: 230px;
+        font-size: 23px;
+        font-weight: bold;
+        color: #2a2d32; }
+      header .information__block .information .information__text {
+        color: #2a2d32;
+        margin-bottom: 16px;
+        font-size: 13px; }
+      header .information__block .information .information__button {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px;
+        color: #2a2d32; }
+      header .information__block .information .information__button:hover {
+        color: #248cec; }
+    header .information__block .information--third {
+      margin-right: 0; }
+
+.content {
+  margin-top: 75px;
+  background: #2a2d32; }
+  .content .services__container {
+    position: relative;
+    overflow: hidden;
+    width: 1160px;
+    margin: 0 auto;
+    font-family: "Ubuntu", Arial, sans-serif; }
+    .content .services__container .services__title {
+      color: #ffffff;
+      margin: 46px 0 55px 0;
+      font-size: 24px; }
+  .content .services__block {
+    width: 260px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 40px; }
+    .content .services__block .services__img {
+      display: block;
+      height: 260px;
+      background: #248cec;
+      text-decoration: none; }
+    .content .services__block .services__text {
+      text-decoration: none;
+      display: block;
+      margin: 22px auto 70px auto;
+      color: #ffffff;
+      text-align: center;
+      font-size: 16px; }
+    .content .services__block img {
+      height: 260px;
+      width: 260px; }
+    .content .services__block img:hover {
+      opacity: 0.5; }
+    .content .services__block .services__text:hover {
+      color: #f4b60d; }
+  .content .services__block--fourth {
+    margin-right: 0; }
+  .content .news__box {
+    background: #f7f7f7; }
+    .content .news__box .news {
+      position: relative;
+      overflow: hidden;
+      width: 1160px;
+      margin: 0 auto;
+      padding: 63px 0 80px 0; }
+      .content .news__box .news .news__latest {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        width: 560px; }
+        .content .news__box .news .news__latest .news__title {
+          font-family: "Ubuntu", Arial, sans-serif;
+          font-size: 24px;
+          margin-bottom: 40px;
+          color: #2a2d32;
+          font-weight: bold; }
+        .content .news__box .news .news__latest .news__container {
+          font-family: "Ubuntu", Arial, sans-serif;
+          position: relative;
+          overflow: hidden;
+          color: #2a2d32; }
+          .content .news__box .news .news__latest .news__container img {
+            float: left;
+            margin-right: 30px; }
+          .content .news__box .news .news__latest .news__container .news__name {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px; }
+          .content .news__box .news .news__latest .news__container .news__by {
+            float: left;
+            font-size: 13px;
+            margin-right: 10px; }
+            .content .news__box .news .news__latest .news__container .news__by span {
+              color: #248cec; }
+          .content .news__box .news .news__latest .news__container .news__comments {
+            font-size: 13px; }
+            .content .news__box .news .news__latest .news__container .news__comments span {
+              color: #248cec; }
+          .content .news__box .news .news__latest .news__container .news__text {
+            margin-top: 24px;
+            font-size: 13px; }
+        .content .news__box .news .news__latest .news__container--second {
+          margin-top: 30px; }
+      .content .news__box .news .banners {
+        float: left;
+        width: 560px;
+        margin-left: 40px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        .content .news__box .news .banners .banners__title {
+          font-family: "Ubuntu", Arial, sans-serif;
+          font-size: 24px;
+          margin-bottom: 40px;
+          color: #2a2d32;
+          font-weight: bold; }
+        .content .news__box .news .banners .accordion__tab {
+          position: relative;
+          border: 1px solid #e8e8e8;
+          background-color: #FFF;
+          padding-left: 38px;
+          cursor: pointer;
+          margin-bottom: 5px;
+          height: 40px; }
+          .content .news__box .news .banners .accordion__tab:before {
+            content: " +";
+            position: absolute;
+            top: 4px;
+            left: 11px;
+            color: #2a2d32;
+            font-size: 27px; }
+        .content .news__box .news .banners .accordion__title {
+          border-left: 1px solid #e8e8e8;
+          padding-left: 12px;
+          color: #2a2d32;
+          background-color: #FFF;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 40px;
+          text-transform: uppercase; }
+        .content .news__box .news .banners .accordion_article {
+          display: none;
+          height: 100px;
+          overflow: hidden;
+          padding: 25px 0 0 40px;
+          margin-bottom: 35px;
+          color: #8a8a8a;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px; }
+        .content .news__box .news .banners .accordion__tab--active {
+          background-color: #f4b60d; }
+          .content .news__box .news .banners .accordion__tab--active:before {
+            content: "-";
+            top: 2px;
+            left: 14px;
+            color: #fff; }
+        .content .news__box .news .banners .accordion__title--active {
+          border-left: 1px solid #f6c53d;
+          background-color: #f4b60d;
+          color: #fff; }
+
+.partners {
+  width: 1160px;
+  margin: 0 auto; }
+  .partners img {
+    margin: 86px 0 86px 0; }
+
+.footer__nav__container {
+  padding: 60px 0 74px;
+  background: #2a2d32; }
+  .footer__nav__container .footer__nav__box {
+    width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    clear: both; }
+    .footer__nav__container .footer__nav__box .footer__nav {
+      width: 260px;
+      font-family: "Ubuntu", Arial, sans-serif;
+      float: left;
+      margin-right: 40px; }
+      .footer__nav__container .footer__nav__box .footer__nav .footer__nav--title {
+        color: #fff; }
+      .footer__nav__container .footer__nav__box .footer__nav .footer__nav--ul {
+        margin-top: 36px; }
+        .footer__nav__container .footer__nav__box .footer__nav .footer__nav--ul .footer__nav--li {
+          font-size: 13px;
+          list-style: none;
+          width: 260px;
+          padding: 10px 0;
+          border-bottom: 1px solid #7d7e80; }
+          .footer__nav__container .footer__nav__box .footer__nav .footer__nav--ul .footer__nav--li a {
+            color: #828385;
+            text-decoration: none; }
+    .footer__nav__container .footer__nav__box #footer__nav--last {
+      margin-right: 0px; }
+
+.footer__contacts {
+  background: #35383c; }
+  .footer__contacts .footer__contacts__box {
+    position: relative;
+    overflow: hidden;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 23px 0 20px;
+    color: #5d6063;
+    font-size: 13px; }
+    .footer__contacts .footer__contacts__box .footer__contacts__address {
+      float: left;
+      width: 320px;
+      margin-right: 6px;
+      text-align: center; }
+      .footer__contacts .footer__contacts__box .footer__contacts__address .footer__contacts__address--image {
+        width: 16px;
+        height: 16px;
+        float: left; }
+    .footer__contacts .footer__contacts__box .footer__contacts__phone {
+      float: left;
+      width: 128px;
+      margin-right: 33px;
+      text-align: center; }
+      .footer__contacts .footer__contacts__box .footer__contacts__phone .footer__contacts__phone--image {
+        width: 16px;
+        height: 16px;
+        float: left; }
+    .footer__contacts .footer__contacts__box .footer__contacts__mail {
+      float: left;
+      width: 160px;
+      margin-right: 6px;
+      text-align: center; }
+      .footer__contacts .footer__contacts__box .footer__contacts__mail .footer__contacts__mail--image {
+        width: 16px;
+        height: 16px;
+        float: left; }
+    .footer__contacts .footer__contacts__box .footer__contacts__box--copy {
+      float: right; }
+
+/*# sourceMappingURL=style.css.map */
