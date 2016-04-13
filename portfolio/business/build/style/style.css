@@ -1,0 +1,243 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+.wrapper header {
+  height: 666px;
+  background: url(../img/header_bg.jpg); }
+  .wrapper header .header__top {
+    width: 100%;
+    height: 68px;
+    background: #f6f6f6; }
+    .wrapper header .header__top .header__top__inner {
+      width: 1200px;
+      margin: 0 auto; }
+      .wrapper header .header__top .header__top__inner .header__logo {
+        margin-left: 18px;
+        float: left; }
+      .wrapper header .header__top .header__top__inner .lng {
+        float: left;
+        padding: 0 20px;
+        margin: 0 36px;
+        line-height: 68px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 12px;
+        color: #494949;
+        text-decoration: none; }
+      .wrapper header .header__top .header__top__inner nav .menu {
+        float: left; }
+        .wrapper header .header__top .header__top__inner nav .menu .menu__item {
+          float: left; }
+          .wrapper header .header__top .header__top__inner nav .menu .menu__item .menu__link {
+            margin-left: 23px;
+            line-height: 68px;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 14px;
+            color: #494949;
+            text-decoration: none; }
+  .wrapper header .header__center {
+    width: 100%;
+    padding-top: 88px; }
+    .wrapper header .header__center .header__center__inner {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px; }
+      .wrapper header .header__center .header__center__inner .header__title {
+        float: left;
+        width: 816px;
+        height: 96px;
+        padding-left: 48px;
+        line-height: 96px;
+        background: rgba(88, 199, 242, 0.9);
+        box-sizing: border-box; }
+        .wrapper header .header__center .header__center__inner .header__title p {
+          color: #fff;
+          font-family: "Roboto Condensed", sans-serif;
+          font-weight: 700;
+          font-size: 72px;
+          opacity: 1; }
+      .wrapper header .header__center .header__center__inner .header__phone {
+        float: right;
+        margin-right: 43px; }
+        .wrapper header .header__center .header__center__inner .header__phone p {
+          margin: 11px 0 11px 0;
+          font-family: "Roboto Condensed", sans-serif;
+          font-weight: 400;
+          font-size: 27px;
+          color: #fff; }
+        .wrapper header .header__center .header__center__inner .header__phone span {
+          font-family: "Roboto Condensed", sans-serif;
+          font-weight: 700;
+          font-size: 30px;
+          color: #fff; }
+      .wrapper header .header__center .header__center__inner .header__call {
+        float: right;
+        margin: 18px 51px 0 0;
+        width: 241px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #fff;
+        box-sizing: border-box;
+        text-align: center; }
+        .wrapper header .header__center .header__center__inner .header__call .header__call__button {
+          padding: 10px 35px;
+          line-height: 50px;
+          font-family: "Roboto Condensed", sans-serif;
+          font-weight: 700;
+          font-size: 24px;
+          color: #fff;
+          text-decoration: none; }
+        .wrapper header .header__center .header__center__inner .header__call .header__call__button:hover {
+          background: #58c7f2; }
+      .wrapper header .header__center .header__center__inner .header__svg .svg__text1__bold,
+      .wrapper header .header__center .header__center__inner .header__svg .svg__text2__bold,
+      .wrapper header .header__center .header__center__inner .header__svg .svg__text3__bold {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .wrapper header .header__center .header__center__inner .header__svg .svg__text1__regular,
+      .wrapper header .header__center .header__center__inner .header__svg .svg__text2__regular,
+      .wrapper header .header__center .header__center__inner .header__svg .svg__text3__regular {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400; }
+      .wrapper header .header__center .header__center__inner .header__reservations {
+        margin: 48px 0 0 364px;
+        text-align: center;
+        width: 445px;
+        height: 81px;
+        background: #58c7f2;
+        border-bottom: 8px solid #0e91c4;
+        box-sizing: border-box; }
+        .wrapper header .header__center .header__center__inner .header__reservations .reservations__button {
+          padding: 22px 108px;
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: 31px;
+          color: #fff;
+          font-weight: 700;
+          text-decoration: none;
+          line-height: 81px; }
+        .wrapper header .header__center .header__center__inner .header__reservations .reservations__button:hover {
+          background: #0e91c4; }
+.wrapper .menu__box .main__menu {
+  width: 100%;
+  height: 57px;
+  background: url(../img/menu__bg.jpg); }
+  .wrapper .menu__box .main__menu .menu {
+    width: 1200px;
+    margin: 0 auto; }
+    .wrapper .menu__box .main__menu .menu .menu__item {
+      float: left;
+      line-height: 62px; }
+      .wrapper .menu__box .main__menu .menu .menu__item .menu__link {
+        padding: 23px 5px 17px 11px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+        text-decoration: none; }
+      .wrapper .menu__box .main__menu .menu .menu__item .menu__link:hover {
+        background: rgba(0, 0, 0, 0.3); }
+  .wrapper .menu__box .main__menu .phone__box {
+    float: left;
+    width: 178px;
+    height: 57px; }
+    .wrapper .menu__box .main__menu .phone__box .phone {
+      display: block;
+      margin: 7px 0 0 22px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 18px;
+      font-weight: 700; }
+  .wrapper .menu__box .main__menu .call__box {
+    width: 170px;
+    height: 57px;
+    float: left;
+    margin-left: 24px;
+    text-align: center;
+    background: #fff; }
+    .wrapper .menu__box .main__menu .call__box .call__link {
+      line-height: 57px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: #58c7f2;
+      text-decoration: none;
+      border-bottom: 1px dashed #58c7f2; }
+  .wrapper .menu__box .main__menu .call__box:hover {
+    background: #58c7f2; }
+  .wrapper .menu__box .main__menu .call__box:hover + .call__link {
+    color: #fff; }
+.wrapper .content {
+  width: 1204px;
+  margin: 0 auto;
+  padding-top: 16px;
+  overflow: hidden; }
+  .wrapper .content .content__title {
+    width: 270px;
+    float: left;
+    margin-right: 28px; }
+    .wrapper .content .content__title p {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 36px;
+      font-weight: 700; }
+  .wrapper .content .content__select form {
+    margin-top: 7px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 14px; }
+    .wrapper .content .content__select form select {
+      width: 170px;
+      padding: 5px 0 5px 10px;
+      margin-left: 8px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+  .wrapper .content .rooms {
+    margin-top: 25px; }
+    .wrapper .content .rooms .rooms__list .rooms__item {
+      width: 244px;
+      height: 74px;
+      border: 1px dashed #000;
+      margin: 8px 0px 9px 0px;
+      text-align: center;
+      line-height: 22px; }
+      .wrapper .content .rooms .rooms__list .rooms__item .rooms__img {
+        float: left;
+        overflow: hidden;
+        width: 48px;
+        height: 48px;
+        margin: 13px 10px;
+        background: url(../img/sprite.png);
+        background-position: -48px 85px; }
+      .wrapper .content .rooms .rooms__list .rooms__item .woman {
+        width: 48px;
+        height: 48px;
+        background-position: -185px 82px; }
+      .wrapper .content .rooms .rooms__list .rooms__item .man {
+        width: 48px;
+        height: 48px;
+        background-position: -118px 83px; }
+      .wrapper .content .rooms .rooms__list .rooms__item .rooms__link {
+        float: left;
+        margin-left: 16px;
+        color: #626262;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 18px;
+        font-weight: 700; }
+        .wrapper .content .rooms .rooms__list .rooms__item .rooms__link p {
+          margin-top: 18px; }
+      .wrapper .content .rooms .rooms__list .rooms__item .vip {
+        margin-left: 5px; }
+        .wrapper .content .rooms .rooms__list .rooms__item .vip p {
+          margin-top: 16px; }
+
+/*# sourceMappingURL=style.css.map */
