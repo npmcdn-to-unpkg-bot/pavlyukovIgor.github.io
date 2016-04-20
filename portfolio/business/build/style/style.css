@@ -26,6 +26,14 @@
   .wrapper .header__reservations .reservations__button:hover,
   .wrapper .reservations .reservations__button:hover {
     background: #0e91c4; }
+.wrapper .content__title, .wrapper .title {
+  width: 270px;
+  float: left;
+  margin-right: 28px; }
+  .wrapper .content__title h1, .wrapper .title h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 36px;
+    font-weight: 700; }
 .wrapper header {
   height: 666px;
   background: url(../img/header_bg.jpg); }
@@ -183,14 +191,6 @@
   margin: 0 auto;
   padding-top: 16px;
   overflow: hidden; }
-  .wrapper .content .content__title {
-    width: 270px;
-    float: left;
-    margin-right: 28px; }
-    .wrapper .content .content__title p {
-      font-family: "Roboto Condensed", sans-serif;
-      font-size: 36px;
-      font-weight: 700; }
   .wrapper .content .content__select form {
     margin-top: 7px;
     font-family: "Roboto Condensed", sans-serif;
@@ -205,6 +205,7 @@
       font-size: 14px;
       text-align: center; }
   .wrapper .content .rooms {
+    position: relative;
     float: left;
     margin-top: 16px; }
     .wrapper .content .rooms .rooms__list .rooms__item {
@@ -246,48 +247,138 @@
     .wrapper .content .rooms .rooms__list .rooms__item:active {
       position: relative;
       background: #58c7f2;
-      width: 222px;
       border: none; }
-    .wrapper .content .rooms .rooms__list .rooms__item:after {
-      left: 100%;
-      top: 50%;
-      border: solid transparent;
-      content: " ";
-      height: 0;
-      width: 0;
-      position: absolute;
-      pointer-events: none;
-      border-color: rgba(88, 199, 242, 0);
-      border-left-color: #58c7f2;
-      border-width: 37px;
-      margin-top: -37px; }
   .wrapper .content .content__box {
     width: 904px;
     float: right;
-    margin-top: 43px;
-    font-family: "Roboto Condensed", sans-serif; }
-    .wrapper .content .content__box .content__name {
-      width: 444px;
-      margin-bottom: 51px;
-      font-weight: 700;
-      font-size: 30px;
-      color: #58c7f2; }
-    .wrapper .content .content__box .content__text {
-      width: 460px;
-      font-size: 14px;
-      line-height: 18px;
-      margin: 0 0 53px 4px; }
-    .wrapper .content .content__box .content__price {
-      width: 444px;
-      display: block;
-      margin-left: 8px; }
-      .wrapper .content .content__box .content__price .content__price__bold {
-        padding-right: 29px;
+    margin-top: 27px;
+    font-family: "Roboto Condensed", sans-serif;
+    overflow: hidden; }
+    .wrapper .content .content__box .content__center {
+      margin-top: 16px;
+      float: left; }
+      .wrapper .content .content__box .content__center .content__name {
+        width: 444px;
+        margin-bottom: 51px;
         font-weight: 700;
-        font-size: 18px; }
-      .wrapper .content .content__box .content__price .content__price__regular {
-        padding-left: 7px; }
-    .wrapper .content .content__box .reservations {
-      margin: 35px 0 0 5px; }
+        font-size: 30px;
+        color: #58c7f2; }
+      .wrapper .content .content__box .content__center .content__text {
+        width: 460px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 53px 4px; }
+      .wrapper .content .content__box .content__center .content__price {
+        width: 444px;
+        display: block;
+        margin-left: 8px; }
+        .wrapper .content .content__box .content__center .content__price .content__price__bold {
+          padding-right: 29px;
+          font-weight: 700;
+          font-size: 18px; }
+        .wrapper .content .content__box .content__center .content__price .content__price__regular {
+          padding-left: 7px; }
+      .wrapper .content .content__box .content__center .reservations {
+        margin: 35px 0 0 5px; }
+    .wrapper .content .content__box .content__img {
+      float: right;
+      margin-right: 32px;
+      position: relative; }
+      .wrapper .content .content__box .content__img .img__link {
+        width: 376px;
+        height: 280px;
+        float: right;
+        background: url(../img/content__img1.jpg); }
+      .wrapper .content .content__box .content__img ul {
+        float: right; }
+        .wrapper .content .content__box .content__img ul li {
+          float: left; }
+          .wrapper .content .content__box .content__img ul li .img__small {
+            width: 82px;
+            height: 62px;
+            margin-top: 10px;
+            background: url(../img/content__img2.jpg); }
+.wrapper .reviews {
+  width: 1200px;
+  margin: 34px auto; }
+  .wrapper .reviews .title {
+    width: 270px;
+    float: left;
+    margin: 28px 0 43px 3px;
+    clear: both; }
+  .wrapper .reviews .owl-carousel {
+    clear: both;
+    margin: 0 0  90px 0;
+    width: 990px;
+    float: left;
+    padding-left: 80px; }
+    .wrapper .reviews .owl-carousel .owl-item {
+      width: 500px; }
+      .wrapper .reviews .owl-carousel .owl-item .carousel__box {
+        width: 470px;
+        height: 330px;
+        margin: 0 2px 0 26px; }
+        .wrapper .reviews .owl-carousel .owl-item .carousel__box .carousel__img {
+          width: 111px;
+          height: 111px;
+          margin-left: 12px;
+          float: left; }
+        .wrapper .reviews .owl-carousel .owl-item .carousel__box .carousel__title {
+          float: left;
+          width: 297px;
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 111px;
+          margin-left: 22px; }
+        .wrapper .reviews .owl-carousel .owl-item .carousel__box .carousel__text {
+          float: left;
+          width: 460px;
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: 12px;
+          font-weight: 300;
+          margin-top: 26px;
+          line-height: 23px; }
+    .wrapper .reviews .owl-carousel .owl-prev {
+      position: absolute;
+      width: 15px;
+      height: 24px;
+      top: 166px;
+      left: 0;
+      background: url(../img/prev.png); }
+    .wrapper .reviews .owl-carousel .owl-next {
+      position: absolute;
+      width: 15px;
+      height: 24px;
+      top: 163px;
+      right: -93px;
+      background: url(../img/next.png); }
+  .wrapper .reviews .reviews__callback {
+    margin-bottom: 50px;
+    width: 1170px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    clear: both; }
+    .wrapper .reviews .reviews__callback .callback__link {
+      color: #58c7f2;
+      text-decoration: none;
+      padding-bottom: 4px;
+      border-bottom: 1px dashed #58c7f2; }
+    .wrapper .reviews .reviews__callback .callback__link:hover {
+      color: #0e91c4;
+      border-bottom: 1px dashed #0e91c4; }
+.wrapper footer {
+  height: 615px;
+  clear: both;
+  background: url(../img/footer__bg.jpg) 50% 0; }
+  .wrapper footer .footer__contacts {
+    width: 470px;
+    height: 100%;
+    margin-left: 75px;
+    background: #fff; }
+    .wrapper footer .footer__contacts .title h1 {
+      margin: 28px 0px 0 30px; }
 
 /*# sourceMappingURL=style.css.map */

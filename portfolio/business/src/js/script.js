@@ -7,4 +7,13 @@ $(document).ready(function() {
   {
    $(".call__link").css({"color": "#fff", "border-bottom": "1px dashed #fff"});
   });
+
+
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:true,
+    autoWidth: true,
+    items:2
+  });
+
 });
