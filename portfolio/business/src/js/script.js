@@ -17,3 +17,24 @@ $(document).ready(function() {
   });
 
 });
+
+
+function openbox(id){
+    $('#module__box').attr("style", "display: block;");
+}
+
+$(document).mouseup(function (e) {
+    var container = $("#module__box");
+    if (container.has(e.target).length === 0){
+        container.hide();
+    }
+
+});
+
+$(document).ready(function(){
+       $("#submit").click(function(){
+             $("#form").submit();
+             console.log('form is submitted');
+             $('#module__box').hide();
+       })
+    });

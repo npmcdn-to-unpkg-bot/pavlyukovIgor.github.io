@@ -41,26 +41,29 @@
         <p>+38 (044) <span>123-45-67</span></p>
         <p>+38 (096) <span>123-45-67</span></p>
       </div>
-      <div class="header__call clearfix">
+      <div class="header__call clearfix" onclick="openbox('module__box'); return false">
         <a href="#" class="header__call__button">Заказать звонок</a>
       </div>
       <div class="header__svg">
-        <svg width="1000" height="150">
-            <polygon points="20,32 300,4 344,146 0,110"
-             fill="rgba(0, 0, 0, 0.2)" stroke="#fff" stroke-width="1" />
+          <svg width="1000" height="150">
+              <polygon points="20,32 300,4 344,146 0,110"
+               fill="rgba(0, 0, 0, 0.2)" stroke="#fff" stroke-width="1" />
+               <text x="41" y="69" id="svg__text__bold" fill="white">Оплата: наличными или картой</text>
+               <text x="41" y="88" id="svg__text__regular" fill="white">цена от 150 грн/сутки</text>
+               <image href="img/visa.png" x="245" y="75" height="70" width="70" />
 
-            <polygon points="304,4 586,54 542,134 350,144"
-             fill="rgba(0, 0, 0, 0.2)" stroke="#fff" stroke-width="1" />
+              <polygon points="304,4 586,54 542,134 350,144"
+               fill="rgba(0, 0, 0, 0.2)" stroke="#fff" stroke-width="1" />
+               <text x="377" y="83" id="svg__text__bold" fill="white">Удобное расположение</text>
+               <text x="377" y="102" id="svg__text__regular" fill="white">в центре Киева</text>
+               <image href="img/location.png" x="330" y="25" height="35" width="35" />
 
-            <polygon points="592,56 808,22 814,124 546,136"
-             fill="rgba(0, 0, 0, 0.2)" stroke="#fff" stroke-width="1" />
-        </svg>
-        <!-- <p class="svg__text1__bold">Оплата: наличными или картой</p>
-        <p class="svg__text1__regular">цена от 150грн\сутки</p>
-        <p class="svg__text2__bold">Удобное расположение</p>
-        <p class="svg__text2__regular">в центре Киева</p>
-        <p class="svg__text3__bold">8-6-2-1-местные комнаты</p>
-        <p class="svg__text3__regular">комфортные условия</p> -->
+              <polygon points="592,56 808,22 814,124 546,136"
+               fill="rgba(0, 0, 0, 0.2)" stroke="#fff" stroke-width="1" />
+               <text x="616" y="77" id="svg__text__bold" fill="white">8-6-2-1-местные комнаты</text>
+               <text x="655" y="97" id="svg__text__regular" fill="white">комфортные условия</text>
+               <image href="img/rooms.png" x="575" y="95" height="28" width="28" />
+          </svg>
       </div>
       <div class="header__reservations reservations">
         <a class="reservations__button"href="#">ЗАБРОНИРОВАТЬ</a>
@@ -86,7 +89,7 @@
     <span class="phone">+38 (096) 123-45-67</span>
   </div>
   <div class="call__box">
-    <a href="#" class="call__link">ЗАКАЗАТЬ ЗВОНОК</a>
+    <a href="#" class="call__link" onclick="openbox('module__box'); return false">ЗАКАЗАТЬ ЗВОНОК</a>
   </div>
 </nav>
 </section>
@@ -137,6 +140,34 @@
         <li><a class="img__small" href=""></a></li>
         <li><a class="img__small" href=""></a></li>
         <li><a class="img__small" href=""></a></li>
+      </ul>
+    </div>
+    <div class="content__icons clearfix">
+      <ul class="icons__list">
+        <li class="list__item item1">
+          <div class="list__img"></div>
+          <span>Заезд в 14-00, выезд в 11-00</span>
+        </li>
+        <li class="list__item item2">
+          <div class="list__img"></div>
+          <span>Горячая вода 24\7</span>
+        </li>
+        <li class="list__item item3">
+          <div class="list__img"></div>
+          <span>Wi-Fi</span>
+        </li>
+        <li class="list__item item4">
+          <div class="list__img"></div>
+          <span>Индивидуальные светильники и розетки</span>
+        </li>
+        <li class="list__item item5">
+          <div class="list__img"></div>
+          <span>Шкафчики на замках</span>
+        </li>
+        <li class="list__item item6">
+          <div class="list__img"></div>
+          <span>Постельное бельё и полотенца высокого качества</span>
+        </li>
       </ul>
     </div>
   </div>
@@ -193,35 +224,64 @@
       <h1>КОНТАКТЫ:</h1>
     </div>
     <div class="contacts__box">
-      <div class="contacts__phone">
-        <span>+38 (044) 123-45-67</span>
-        <span>+38 (096) 123-45-67</span>
-        <span>+38 (063) 123-45-67</span>
-        <span>+38 (050) 123-45-67</span>
-      </div>
+      <ul class="contacts__list">
+            <li><div class="list__item phone"></div><span>+38 (044) 123-45-67</span></li>
+            <li><div class="list__item kyivstar"></div><span>+38 (096) 123-45-67</span></li>
+            <li><div class="list__item lifecell"></div><span>+38 (063) 123-45-67</span></li>
+            <li><div class="list__item vodafone"></div><span>+38 (050) 123-45-67</span></li>
 
-      <div class="contacts__mail">
-        <span>E-mail:</span>
-        <span>lightlife@hostel.kiev.ua</span>
-      </div>
+            <li class="list__box mail">
+              <div class="list__sprite list__sprite__mail"></div>
+              <span class="contacts__mail__color">E-mail:</span>
+              <span>lightlife@hostel.kiev.ua</span>
+            </li>
 
-      <div class="contacts__messenger">
-        <span>Viber: </span>
-        <span>+380961234567</span>
+            <li class="list__box viber">
+              <div class="list__sprite list__sprite__viber"></div>
+              <span class="contacts__viber__color">Viber: </span>
+              <span>+380961234567</span>
+            </li>
 
-        <span>Skype: </span>
-        <span>lightlife</span>
-      </div>
-      <div class="contacts__address">
-        <img src="" alt="">
-        <span>г.Киев, ул. Киквидзе, 1/2</span>
-        <span>м. “Дружбы Народов”      м. “Печерск”</span>
-      </div>
+            <li class="list__box skype">
+              <div class="list__sprite list__sprite__skype"></div>
+              <span class="contacts__skype__color">Skype: </span>
+              <span>lightlife</span>
+            </li>
+
+            <li class="list__box map">
+              <div class="list__sprite list__sprite__map"></div>
+              <span class="map__text">г.Киев, ул. Киквидзе, 1/2</span>
+              <span class="map__text__small">м. “Дружбы Народов”      м. “Печерск”</span>
+            </li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+</footer>
+
+<div id="module__box">
+  <div class="module__input">
+    <div class="module__h1">
+      <h1>или Оставьте заявку, мы свяжемся с Вами</h1>
     </div>
 
+    <form id="form" name="form" method="GET" action="">
+      <input type="text" value="Ваше имя" onblur="this.value='Ваше имя'">
 
+      <input class="phone" type="tel" value="+38 (0___)__-__-__"  onblur="this.value='+38 (0___)__-__-__'">
   </div>
-</footer>
+      <div class="module__button">
+          <div class="reservations">
+              <a id="submit" href="javascript:void(0)">ОТПРАВИТЬ</a>
+          </div>
+      </div>
+    <form>
+</div>
 
 </div>
 </body>
