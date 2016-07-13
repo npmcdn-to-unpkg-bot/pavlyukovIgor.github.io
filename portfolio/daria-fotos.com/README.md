@@ -1,4 +1,4 @@
-<a href="daria-fotos.com">Daria-fotos.com</a><br>
+<a href="http://daria-fotos.com">Daria-fotos.com</a><br>
 
 Description: Website for the photographer from Kiev. Full adaptive for mobile, tablet. Cross-browser compatibility to version IE 9+.<br>
 
