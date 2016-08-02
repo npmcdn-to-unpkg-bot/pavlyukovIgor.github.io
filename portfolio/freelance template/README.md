@@ -1,4 +1,4 @@
-<a href="#">View site</a>  
+<a href="http://pavlyukovigor.github.io/portfolio/freelance%20template/build/index.html">View site</a>  
 
 Full adaptive for all screens<br>
 Technologies: HTML/HTML 5, CSS/CSS 3<br>
