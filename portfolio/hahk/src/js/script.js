@@ -7,6 +7,13 @@ $(function() {
   });
     });
 
+    $(function() {
+          $('#link').click(function() {
+              $('#menu').show();
+              return false;
+          });        
+      });
+
 
     $(function(){
       $.ajax({
@@ -20,17 +27,17 @@ $(function() {
 
    });
 
-   function GoogleCallback(data) {
-
-
-       for (var i = 0; i < data.results.length; i++) {
-
-         $('.account__name', {
-           'text': data.results[i].name,
-           'appendTo': '.account',
-         });
-
-         $('<p>').appendTo('.account').addClass('.account__name').html(data.results[i].name);
-
-       };
-     };
+  //  function GoogleCallback(data) {
+   //
+   //
+  //      for (var i = 0; i < data.results.length; i++) {
+   //
+  //        $('.account__name', {
+  //          'text': data.results[i].name,
+  //          'appendTo': '.account',
+  //        });
+   //
+  //        $('<p>').appendTo('.account').addClass('.account__name').html(data.results[i].name);
+   //
+  //      };
+  //    };https://github.com/pavlyukovIgor/pavlyukovIgor.github.io/tree/master/portfolio/hahk
