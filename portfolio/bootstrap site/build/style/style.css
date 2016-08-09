@@ -226,9 +226,9 @@ h1 {
       float: left; }
     .container-fluid header .header__fixed .menu__item {
       display: block;
-      width: 30px;
-      height: 26px;
-      background: url("../img/menu__icon.jpg");
+      width: 37px;
+      height: 37px;
+      background: url("../img/menu__icon.png");
       margin: 40px 10px 0 0;
       color: #fff;
       float: right; }
