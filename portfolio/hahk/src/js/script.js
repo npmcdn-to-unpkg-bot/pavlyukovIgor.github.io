@@ -1,19 +1,11 @@
 $(function() {
   $('.single-item').slick({
     // autoplay: true,
-    arrows: fa,
+    arrows: false,
     dots: true,
-    infinite: true,
+    mobileFirst: true,
   });
     });
-
-
-        $(function() {
-               $('#link').click(function() {
-                   $('#menu').show();
-                   return false;
-               });
-           });
 
 
     $(function(){
@@ -21,9 +13,24 @@ $(function() {
     type: 'GET',
     url: 'http://dev.frevend.com/json/users.json',
     dataType: 'jsonp',
-    success: function(data) { console.log('Success!'); },
+    success: function() { console.log('Success!'); },
     error: function() { console.log('Uh Oh!'); },
     jsonp: 'jsonp'
 });
 
    });
+
+   function GoogleCallback(data) {
+
+
+       for (var i = 0; i < data.results.length; i++) {
+
+         $('.account__name', {
+           'text': data.results[i].name,
+           'appendTo': '.account',
+         });
+
+         $('<p>').appendTo('.account').addClass('.account__name').html(data.results[i].name);
+
+       };
+     };
