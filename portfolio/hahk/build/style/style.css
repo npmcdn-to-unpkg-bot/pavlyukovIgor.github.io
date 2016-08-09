@@ -208,9 +208,9 @@ h1 {
     position: relative;
     height: 800px; }
     .container-fluid header .header__fixed .mobile__menu {
-      position: absolute;
       display: none;
       width: 100%;
+      height: 800px;
       z-index: 99;
       background: #01c7d9; }
       .container-fluid header .header__fixed .mobile__menu .list-item {
