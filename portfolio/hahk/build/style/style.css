@@ -77,7 +77,7 @@ h1 {
             .container-fluid header .slider .slider__box .slider__text .slider__text--header span {
               font-weight: bold; }
           .container-fluid header .slider .slider__box .slider__text .slider__text--center {
-            width: 700px;
+            max-width: 700px;
             margin-bottom: 62px;
             font-size: 18px;
             line-height: 1.2; }
@@ -112,14 +112,14 @@ h1 {
                 display: block;
                 width: 40px;
                 height: 40px;
-                background-image: url("../img/sprite.png");
-                background-position: -34px 88px; }
+                background-image: url("../img/social__icons.png");
+                background-position: -34px 76px; }
               .container-fluid header .slider .slider__box .slider__text .slider__icons .icons .android {
                 display: block;
                 width: 40px;
                 height: 40px;
-                background-image: url("../img/sprite.png");
-                background-position: -119px 88px; }
+                background-image: url("../img/social__icons.png");
+                background-position: -101px 76px; }
   .container-fluid .services {
     padding-top: 15px;
     text-align: center;
@@ -139,14 +139,14 @@ h1 {
         border-radius: 78px;
         background: #4bcaff;
         background-image: url("../img/sprite.png");
-        background-position: -141px 256px;
+        background-position: -190px 321px;
         margin: 0 auto; }
       .container-fluid .services .services__box .services__group .second__image {
-        background-position: -456px 256px; }
+        background-position: -503px 321px; }
       .container-fluid .services .services__box .services__group .third__image {
-        background-position: -770px 256px; }
+        background-position: -818px 321px; }
       .container-fluid .services .services__box .services__group .fourth__image {
-        background-position: -1084px 256px; }
+        background-position: -1133px 321px; }
       .container-fluid .services .services__box .services__group .services__bold {
         margin: 38px 0 18px 0;
         font-size: 15px;
@@ -199,7 +199,7 @@ h1 {
       font-size: 20px;
       font-weight: bold; }
 
-@media (min-width: 320px) and (max-width: 361px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 30px; }
 
@@ -265,5 +265,23 @@ h1 {
     .container-fluid .accounts .account .account__text {
       margin-top: 30px;
       font-size: 16px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-fluid header .header__fixed .menu .list-item {
+    padding-left: 0; }
+    .container-fluid header .header__fixed .menu .list-item a {
+      margin: 0 5px; }
+  .container-fluid header .slider .slider__box .slider__text .slider__text--center {
+    max-width: 640px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid header .header__fixed .menu .list-item {
+    padding-left: 0; }
+    .container-fluid header .header__fixed .menu .list-item a {
+      margin: 0 4px; }
+  .container-fluid header .slider .slider__box .slider__text {
+    padding-left: 284px; }
+    .container-fluid header .slider .slider__box .slider__text .slider__text--center {
+      max-width: 640px; }
+  .container-fluid .services .services__box .col-md-3 {
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
