@@ -289,4 +289,178 @@ header {
 }
 }
 
+.price {
+  padding: 60px 0 90px 0;
+  background: #f5f5f5;
+  h2 {
+    font-size: 46px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .plans {
+    padding-top: 45px;
+    position: relative;
+    .plan {
+      padding: 0 0 50px 0;
+      background: #f5f5f5;
+      border: 1px solid #c9c9c9;
+      text-align: center;
+        .plan__header {
+          color: #484848;
+          font-size: 25px;
+          font-weight: bold;
+          height: 84px;
+        }
+        .plan__header--first {
+          padding-top: 5px;
+        }
+        .plan__header--center,
+        .plan__header--last {
+          line-height: 84px;
+        }
+
+        .plan__price {
+          max-height: 104px;
+          background: #717171;
+          color: $white;
+          font-size: 46px;
+          border-radius: 3px;
+            p {
+            font-weight: bold;
+            }
+            span {
+              display: block;
+              font-size: 20px;
+              line-height: 5px;
+              padding-bottom: 25px;
+            }
+        }
+        .plan__descr {
+          padding: 47px 36px 12px 0px;
+          font-size: 18px;
+          color: #585858;
+        }
+        a {
+          margin: 20px auto 0;
+          width: 132px;
+          height: 32px;
+          line-height: 32px;
+          display: block;
+          background: #ed1f24;
+          border-radius: 4px;
+          color: $white;
+          font-size: 12px;
+          font-weight: bold;
+        }
+    }
+    .plan__center {
+      position: absolute;
+      top: 7%;
+      left: 32%;
+      z-index: 10;
+      width: 324px;
+      min-height: 434px;
+        .plan__price {
+          background: #ed1f24;
+          padding-bottom: 5px;
+        }
+    }
+  }
+}//plan and price
+
+.contacts {
+  border-bottom: 1px solid $white;
+  background: #3c3c3c;
+  height: 395px;
+  .contacts__img {
+    background: url('../img/contacts__phone.jpg');
+    height: 394px;
+    .contacts__button {
+      padding-top: 20px;
+      padding-right: 35px;
+      text-align: right;
+        float: right;
+    p {
+      max-width: 320px;
+      font-size: 52px;
+      color: $white;
+    }
+    a {
+      float: right;
+      width: 183px;
+      height: 42px;
+      line-height: 42px;
+      display: block;
+      background: #da2227;
+      border-radius: 4px;
+      color: $white;
+      text-align: center;
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+  }
+
+  .contacts__form {
+    padding-left: 8px;
+    .contacts_address {
+      padding: 30px 0;
+      p {
+        max-width: 400px;
+        font-size: 29px;
+        color: $white;
+      }
+    }
+    form {
+      .form__left {
+        float: left;
+        width: 200px;
+        input {
+          width: 185px;
+          height: 34px;
+          border: 1px solid #bfbfbf;
+          border-radius: 4px;
+          background: none;
+          color: #626262;
+          padding-left: 12px;
+          margin: 5px;
+        }
+      }
+      .form__right {
+        float: left;
+        textarea {
+          float: left;
+          width: 166px;
+          height: 124px;
+          border: 1px solid #bfbfbf;
+          border-radius: 4px;
+          background: none;
+          color: #626262;
+          padding-left: 12px;
+          margin: 5px;
+          resize: none;
+        }
+      }
+      input[type="submit"] {
+        float:right;
+        margin-right: 70px;
+        width: 86px;
+        height: 28px;
+        background: none;
+        color: $white;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid #bfbfbf;
+        border-radius: 4px;
+      }
+  }
+  }
+}
+
+footer {
+  
+}
+
+
 }//container-fluid
