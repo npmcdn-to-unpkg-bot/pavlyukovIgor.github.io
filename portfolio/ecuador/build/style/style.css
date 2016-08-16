@@ -23,7 +23,8 @@ h1 {
     height: 676px;
     padding: 0 20px 0 43px;
     position: relative;
-    background: url("../img/header__bg.jpg") 58% 0; }
+    background: url("../img/header__bg.jpg") 58% 0;
+    max-width: 100%; }
     .container-fluid header .header__fixed {
       height: auto;
       padding-left: 30px;
@@ -31,8 +32,7 @@ h1 {
       top: 0;
       left: 0;
       z-index: 1000;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.3); }
+      width: 100%; }
       .container-fluid header .header__fixed .header__logo {
         display: block;
         margin-top: 28px;
@@ -88,19 +88,22 @@ h1 {
         background-color: #ed1f24;
         border: 2px solid #ed1f24; }
   .container-fluid .block1 {
-    margin-top: 44px; }
+    margin-top: 44px;
+    text-align: center; }
     .container-fluid .block1 .phone__img {
       margin-left: 10px;
-      background: url("../img/phone.jpg");
-      width: 578px;
+      background: url("../img/phone.jpg") no-repeat;
+      background-size: contain;
       height: 731px; }
     .container-fluid .block1 .phone__info {
-      margin: 84px 0 0 80px; }
+      margin: 84px 0 0 0; }
       .container-fluid .block1 .phone__info .block1__h2--top {
+        width: 100%;
         margin-bottom: 10px; }
       .container-fluid .block1 .phone__info .block1__h2 {
         font-size: 44px;
-        max-width: 450px;
+        width: 100%;
+        max-width: 100%;
         font-weight: 100;
         line-height: 1.2;
         text-align: center; }
@@ -243,7 +246,7 @@ h1 {
       padding-left: 54px;
       text-align: center; }
       .container-fluid .products .products__box .product__desription .product__desr {
-        padding: 0 20px; }
+        padding: 20px; }
         .container-fluid .products .products__box .product__desription .product__desr h3 {
           font-size: 20px;
           color: #151515; }
@@ -258,10 +261,13 @@ h1 {
         text-align: left; }
     .container-fluid .products .product__img {
       background: url("../img/product__img.jpg");
+      max-width: 100%;
       height: 463px;
-      margin-left: 40px; }
+      background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover; }
   .container-fluid .price {
-    padding: 60px 0 90px 0;
+    padding: 72px 0 56px 0;
     background: #f5f5f5; }
     .container-fluid .price h2 {
       font-size: 46px;
@@ -272,6 +278,7 @@ h1 {
       position: relative; }
       .container-fluid .price .plans .plan {
         padding: 0 0 50px 0;
+        border-radius: 4px;
         background: #f5f5f5;
         border: 1px solid #c9c9c9;
         text-align: center; }
@@ -299,7 +306,7 @@ h1 {
             line-height: 5px;
             padding-bottom: 25px; }
         .container-fluid .price .plans .plan .plan__descr {
-          padding: 47px 36px 12px 0px;
+          padding: 47px 28px 13px 36px;
           font-size: 18px;
           color: #585858; }
         .container-fluid .price .plans .plan a {
@@ -316,9 +323,9 @@ h1 {
       .container-fluid .price .plans .plan__center {
         position: absolute;
         top: 7%;
-        left: 32%;
+        left: 33%;
         z-index: 10;
-        width: 324px;
+        width: 34%;
         min-height: 464px; }
         .container-fluid .price .plans .plan__center .plan__price {
           background: #ed1f24;
@@ -328,7 +335,10 @@ h1 {
     background: #3c3c3c;
     height: 395px; }
     .container-fluid .contacts .contacts__img {
-      background: url("../img/contacts__phone.jpg");
+      background: url("../img/contacts__phone.jpg") no-repeat;
+      background-size: cover;
+      background-size: 100% 101%;
+      max-width: 100%;
       height: 394px; }
       .container-fluid .contacts .contacts__img .contacts__button {
         padding-top: 20px;
@@ -361,7 +371,7 @@ h1 {
           color: #fff; }
       .container-fluid .contacts .contacts__form form .form__left {
         float: left;
-        width: 200px; }
+        width: 47%; }
         .container-fluid .contacts .contacts__form form .form__left input {
           width: 185px;
           height: 34px;
@@ -372,6 +382,7 @@ h1 {
           padding-left: 12px;
           margin: 5px; }
       .container-fluid .contacts .contacts__form form .form__right {
+        width: 50%;
         float: left; }
         .container-fluid .contacts .contacts__form form .form__right textarea {
           float: left;
@@ -386,7 +397,7 @@ h1 {
           resize: none; }
       .container-fluid .contacts .contacts__form form input[type="submit"] {
         float: right;
-        margin-right: 70px;
+        margin-right: 62px;
         width: 86px;
         height: 28px;
         background: none;
@@ -397,7 +408,7 @@ h1 {
         border-radius: 4px; }
   .container-fluid footer {
     background: #303030;
-    height: 152px; }
+    min-height: 152px; }
     .container-fluid footer .footer__logo {
       margin: 50px 0 0 40px;
       width: 78px;
@@ -425,21 +436,141 @@ h1 {
       height: 56px;
       background: url("../img/facebook.jpg"); }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .container-fluid header .header__fixed .menu .list-item a {
-    margin: 0 10px; }
+    margin: 0 11px; }
+  .container-fluid .price .plans .plan__center {
+    min-height: 494px; }
+  .container-fluid .price .plans .plan .plan__descr {
+    padding: 47px 28px 13px 46px; }
+  .container-fluid .contacts .contacts__form form input[type="submit"] {
+    margin-right: 62px; }
   .container-fluid footer .footer__menu li a {
-    margin: 0 2px; } }
-@media (min-width: 992px) {
+    margin: 0 2px; }
+  .container-fluid footer .footer__copy {
+    margin: 66px 0 0 50px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
   .container-fluid header .header__fixed .menu .list-item a {
     margin: 0 5px; }
   .container-fluid .block1 .phone__info {
-    margin: 84px 0 0 50px; }
+    width: 48%; }
   .container-fluid .price .plans .plan .plan__descr {
     padding: 47px 6px 12px 0px; }
   .container-fluid .contacts {
     height: auto; }
-  .container-fluid footer .footer__menu li a {
-    margin: 0 2px; } }
+    .container-fluid .contacts .contacts__img .contacts__button p {
+      font-size: 35px; }
+    .container-fluid .contacts .contacts__form form .form__left {
+      width: 47%; }
+      .container-fluid .contacts .contacts__form form .form__left input {
+        width: 142px;
+        height: 34px; }
+    .container-fluid .contacts .contacts__form form .form__right {
+      width: 50%; }
+      .container-fluid .contacts .contacts__form form .form__right textarea {
+        width: 161px;
+        height: 122px; }
+    .container-fluid .contacts .contacts__form form input[type="submit"] {
+      margin-right: 6px; }
+  .container-fluid footer .footer__menu {
+    margin: 66px 0 0 -50px; }
+    .container-fluid footer .footer__menu li a {
+      margin: 0 2px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid header .header__fixed {
+    position: relative;
+    width: 94%; }
+    .container-fluid header .header__fixed .menu {
+      text-align: right; }
+  .container-fluid header .header__box .header__box--top,
+  .container-fluid header .header__box .header__box--center {
+    font-size: 40px; }
+  .container-fluid .block1 .phone__info {
+    margin: 84px 0 0 50px; }
+  .container-fluid .price .plans .plan__center {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 33%; }
+  .container-fluid .price .plans .plan .plan__descr {
+    padding: 47px 6px 12px 0px; }
+  .container-fluid .contacts {
+    height: auto;
+    padding-bottom: 20px; }
+    .container-fluid .contacts .contacts__img .contacts__button p {
+      font-size: 32px; }
+    .container-fluid .contacts .contacts__img .contacts__button a {
+      width: 122px;
+      font-size: 14px; }
+    .container-fluid .contacts .contacts__form .contacts_address p {
+      font-size: 17px; }
+    .container-fluid .contacts .contacts__form form .form__left {
+      float: none; }
+    .container-fluid .contacts .contacts__form form .form__right {
+      float: none; }
+      .container-fluid .contacts .contacts__form form .form__right textarea {
+        width: 184px; }
+  .container-fluid footer .footer__menu {
+    margin: 66px 0 0 18px; }
+    .container-fluid footer .footer__menu li a {
+      padding: 0 4px;
+      margin: 0 1px; }
+    .container-fluid footer .footer__menu li:first-child {
+      padding-left: 0px; }
+  .container-fluid footer .facebook {
+    margin: 50px 0 0 8px; } }
+@media (min-width: 600px) and (max-width: 767px) {
+  .container-fluid header .header__fixed {
+    position: relative; }
+    .container-fluid header .header__fixed .menu .list-item a {
+      margin: 0 6px; }
+  .container-fluid header .header__box .header__box--top,
+  .container-fluid header .header__box .header__box--center {
+    font-size: 40px; }
+  .container-fluid .block1 .phone__info {
+    margin: 84px 0 0 50px; }
+  .container-fluid .products .products__box .product__desription .product__desr {
+    margin-bottom: 40px; }
+  .container-fluid .price .plans .plan__center {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .container-fluid .price .plans .plan .plan__descr {
+    padding: 47px 6px 12px 0px; }
+  .container-fluid .contacts {
+    height: auto;
+    padding-bottom: 20px; }
+    .container-fluid .contacts .contacts__img .contacts__button p {
+      font-size: 32px; }
+    .container-fluid .contacts .contacts__img .contacts__button a {
+      width: 122px;
+      font-size: 14px; }
+    .container-fluid .contacts .contacts__form {
+      margin-left: 30px; }
+      .container-fluid .contacts .contacts__form .contacts_address {
+        padding: 18px 0; }
+        .container-fluid .contacts .contacts__form .contacts_address p {
+          font-size: 17px; }
+      .container-fluid .contacts .contacts__form form .form__left {
+        float: left; }
+      .container-fluid .contacts .contacts__form form .form__right {
+        float: left; }
+        .container-fluid .contacts .contacts__form form .form__right textarea {
+          width: 184px; }
+      .container-fluid .contacts .contacts__form form input[type="submit"] {
+        margin-right: 108px; }
+  .container-fluid footer .flogo {
+    width: 30%;
+    float: left; }
+  .container-fluid footer .fcopy {
+    width: 70%;
+    float: left; }
+  .container-fluid footer .footer__menu {
+    display: none; }
+  .container-fluid footer .facebook {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
