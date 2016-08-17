@@ -216,7 +216,7 @@ h1 {
     right: 0; }
     .container-fluid .clip_4 .clip_left {
       float: left;
-      width: 69%;
+      width: 68%;
       height: 100%;
       background: url("../img/box__right1.png") 100% 55% no-repeat;
       text-align: center; }
@@ -228,7 +228,7 @@ h1 {
         font-weight: bold; }
     .container-fluid .clip_4 .clip_right {
       float: left;
-      width: 31%;
+      width: 32%;
       height: 100%;
       background: url("../img/box__right2.jpg") 10% no-repeat;
       text-align: center; }
