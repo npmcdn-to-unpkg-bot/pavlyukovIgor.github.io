@@ -667,6 +667,8 @@ h1 {
     font-size: 30px; }
   .container-fluid header .header__box .header__button {
     margin: 30px 0 0px 0; }
+  .container-fluid header .header__box .right {
+    width: 256px; }
   .container-fluid .block1 {
     padding-bottom: 20px; }
     .container-fluid .block1 .phone__img {
