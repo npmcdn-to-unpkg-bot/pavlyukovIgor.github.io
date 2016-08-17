@@ -183,14 +183,16 @@ header {
 .clip_1 {
   width: 50%;
   height: 50%;
-  -webkit-clip-path: polygon(0 0, 88% 0%, 82% 100%, 0% 100%);
+  clip-path: polygon(0 0, 88% 0%, 82% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 88% 0%, 82% 100%, 0% 100%);
+
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
   .clip_left {
     float: left;
-    width: 47%;
+    width: 39%;
     height: 100%;
     background: url('../img/box__left1.jpg') 100% no-repeat;
     text-align: center;
@@ -204,9 +206,9 @@ header {
   }
   .clip_right {
     float: left;
-    width: 53%;
+    width: 61%;
     height: 100%;
-    background: url('../img/box__left2.png') 1% no-repeat;
+    background: url('../img/box__left2.png') -1% no-repeat;
     text-align: center;
     p {
       margin-right: 25%;
@@ -221,7 +223,8 @@ header {
 .clip_2 {
   width: 50%;
   height: 50%;
-  -webkit-clip-path: polygon(0% 0%, 82% 0%, 78% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 82% 0%, 78% 100%, 0% 100%);
+
   background: #535353;
   position: absolute;
   bottom: 0;
@@ -289,9 +292,9 @@ header {
   right: 0;
   .clip_left {
     float: left;
-    width: 57%;
+    width: 69%;
     height: 100%;
-    background: url('../img/box__right1.jpg') 100% 55%  no-repeat;
+    background: url('../img/box__right1.png') 100% 55%  no-repeat;
     text-align: center;
     p {
       margin-left: 36%;
@@ -303,7 +306,7 @@ header {
   }
   .clip_right {
     float: left;
-    width: 43%;
+    width: 31%;
     height: 100%;
     background: url('../img/box__right2.jpg') 10% no-repeat;
 
@@ -1126,12 +1129,11 @@ footer {
     .block1 {
     padding-bottom: 20px;
     .phone__img {
-      margin: 0;
+      margin-left: 4%;
       height: 415px;
     }
     .phone__info {
-      // width:
-      margin: 84px 0 0 50px;
+      margin: 0;
       .block1__item {
         text-align: center;
       }
@@ -1151,7 +1153,11 @@ footer {
     .products {
       padding: 0;
       .products__box {
+        .product__text {
+          padding: 0;
+        }
         .product__desription {
+          padding: 0;
           .product__desr {
             margin-bottom: 40px;
           }
@@ -1167,6 +1173,9 @@ footer {
 
     .price {
       .plans {
+        .plan {
+          margin: 20px 0;
+        }
         .plan__center {
           position: relative;
           top: 0;
@@ -1185,7 +1194,9 @@ footer {
       height: auto;
       padding-bottom: 20px;
       .contacts__img {
+        height: 170px;
         .contacts__button {
+          padding: 0 5px 0 0;
           p {
             font-size: 32px;
           }
@@ -1196,7 +1207,7 @@ footer {
         }
       }
       .contacts__form {
-        margin-left: 30px;
+        text-align: center;
         .contacts_address {
           padding: 18px 0;
           p {
@@ -1205,17 +1216,21 @@ footer {
         }
           form {
             .form__left {
-              width: 100%;
+              width: 97%;
               float: left;
             }
             .form__right {
+              width: 97%;
+              text-align: center;
+              padding: 0 17%;
               float: left;
               textarea {
-                width: 184px;
+                width: 185px;
               }
             }
             input[type="submit"] {
-              margin-right: 92px;
+              margin-top: 10px;
+              margin-right: 116px;
             }
           }
       }
